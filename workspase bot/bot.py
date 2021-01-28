@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 import time
-TOKEN = 'ODAxMDk4MzgxMzIxMzA2MTYy.YAbvAQ.yTvQY3KCV8YWdFpYFVekpV0P9fM'
 PREFIX = '$'
 INTENTS = discord.Intents.default()
 bot = commands.Bot(command_prefix=PREFIX, intents=INTENTS)
